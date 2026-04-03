@@ -1,0 +1,39 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>Poster</title>
+    <style>
+        body{
+            margin:0;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text:align:center;
+            background:linear-gradient(45deg, grey, peachpuff, lightskyblue);
+        }
+        .poster{
+            color:grey
+        }
+        .typing-text::after{
+            content:"-they will come";
+            animation:typing 3s infinite;
+            color:black;
+            font-size:13px;
+        }
+        @keyframes typing{
+            50%{content:"-believe in yourself"};
+        }
+        
+    </style>
+    </head>
+    <body>
+        <div class="poster">
+            <h1> If you build it</h1>
+            <span class="typing-text"></span>
+            <p>-PEROSO KEN JEFFERSON</p>
+        </div>
+    </body>
+    </html>
